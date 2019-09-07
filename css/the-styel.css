@@ -1,0 +1,247 @@
+body
+{
+    background-color:#f1f1f1 ;
+}
+/*---------------- start nav ---------*/
+
+
+.navbar #menu img
+{
+	width: 80px;
+	position: relative;
+	top: 10px;
+	right: 60px;
+}
+#menu
+{
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#menu:hover
+{
+    transform: scale(1.1)
+    
+}
+
+.ham-menu .list
+{
+    margin: auto;
+}
+.ham-menu li
+{
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+.ham-menu li a
+{
+    color: #2d2737;
+}
+
+
+
+.main-nav
+{
+    background-color: rgba(0,0,0,.40);
+    z-index: 99;
+    
+}
+
+#nav-overlay
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: 99999;
+    height: 100vh;
+    background-color: rgba(241,241,241,.80);
+    transition: all .6s;
+}
+.top
+{
+    top: 0!important ;
+    transition: all 1s;
+}
+.close
+{
+    margin-left: auto;
+    padding: 20px 40px
+}
+
+/*--------------------- end nav ---------------*/
+/*-------------------- strt sec home --------------*/
+.home
+{
+    background-color: black;
+    height: 600px;
+    position: relative;
+    border-bottom: none;
+   
+}
+
+
+.skew-bottom
+{
+    position: absolute;
+    bottom: 0px;
+    
+}
+.skew-bottom img
+{
+    width: 100%;
+}
+#header .boxhome
+{
+    color: aliceblue;
+    
+}
+
+
+
+
+/*------------- start sec 2---------------*/
+#sec2
+{
+    background-color: #2d2737;
+    padding: 100px 0 ;
+    position:relative;
+    margin-top: 0px;
+}
+#sec2 .skew-top
+{
+    position: absolute ;
+    top: 0;
+          
+}
+#sec2 .skew-top img
+{
+    width: 100%;
+}
+#sec2 .container >h2
+{
+    color: #ff214f;
+    text-align: center;
+}
+.layer
+{
+    background-color:rgba(255,182,6,.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+.layer:hover
+{
+    opacity: 1;
+}
+
+
+.card:hover
+{
+    cursor: pointer;
+}
+.team
+{
+    background-color: #f1f1f1;
+}
+.item
+{
+    position: relative;
+    overflow: hidden;
+    
+        
+}
+.item:hover .layer-item
+{
+    top: 5%;
+    
+}
+.layer-item
+{
+    background-color: rgba(0, 33, 71, 0.7);
+    width: 90%;
+    height:90%;
+    position: absolute;
+    top:-100%;
+    left:5%;
+    transition: all 1s;
+}
+.layer-item p
+{
+    font-size: 14px;
+}
+
+.layer-item li
+{
+    display: inline;
+    color:darkkhaki;
+    padding: 2px;
+    
+}
+.layer-info
+{
+    background-color:burlywood;
+    position:absolute;
+    bottom:15px;
+    left: 15px;
+    right: 15px;
+    transition: all 1s;
+    transition-delay: 0.1s;
+    
+}
+
+.item:hover .layer-info
+{
+    bottom: -100%;
+    
+}
+.modal-body
+{
+    text-align: center;
+}
+
+/*------- end sec 2 --------------*/
+
+
+footer
+{
+    height: 300px;
+    background-color: black;
+}
+
+footer img
+{
+    width: 100%;
+}
+
+
+
+.close-icon i
+{
+    color: #2d2737;
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: all .6s
+    
+}
+.close-icon i:hover
+{
+    color: #ff214f;
+    transform: rotate(90deg);
+}
+
+.ham-menu a 
+{
+    color: #2d2737;
+    transition: all .3s;
+}
+.ham-menu a:hover 
+{
+    color: #ff214f;
+}
+
