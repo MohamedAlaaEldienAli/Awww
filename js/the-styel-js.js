@@ -14,3 +14,19 @@ $(".close-icon i").click(function()
 $(document).ready(function() {
   $(".skitter-large").skitter();
 });
+
+var containerEl = document.querySelector('.container');
+
+            var mixer = mixitup(containerEl);
+
+
+
+$(".first-btn").addClass("change-color");
+
+$(".custom-btn").click(function()
+{
+    $(this).addClass("change-color");
+    $(".custom-btn").not(this).removeClass("change-color");
+    
+})
+
